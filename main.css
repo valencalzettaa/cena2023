@@ -1,0 +1,84 @@
+/* Reset de estilos para asegurar consistencia en diferentes navegadores */
+body, h1, h2, p, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #eaeaea; /* Color neutro para el fondo del encabezado */
+    color: #333; /* Color de texto */
+    padding: 20px;
+    border-bottom: 2px solid #ccc; /* Borde inferior para separar el encabezado del contenido */
+}
+
+#titulo {
+    font-size: 2.5em;
+    font-family: 'Georgia', serif; /* Estilo de letra más elegante */
+    color: #555; /* Color de texto más oscuro */
+}
+
+#subtitulo {
+    font-size: 1.8em;
+    margin-top: 10px;
+    font-family: 'Georgia', serif; /* Estilo de letra más elegante */
+    color: #777; /* Color de texto más claro */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query para pantallas de celular */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #titulo {
+        font-size: 2em;
+    }
+
+    #subtitulo {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
